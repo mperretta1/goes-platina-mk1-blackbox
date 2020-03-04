@@ -6,7 +6,7 @@ package main
 
 import (
 	"bytes"
-	s "fmt"
+	"fmt"
 	"io/ioutil"
 	"os"
 	"os/exec"

@@ -6,7 +6,7 @@ package main
 
 import (
 	"bytes"
-	"fmt"
+	s "fmt"
 	"io/ioutil"
 	"os"
 	"os/exec"
@@ -98,6 +98,7 @@ func Test(t *testing.T) {
 	})
 	mayRun(t, "nsif", nsifTest)
 	mayRun(t, "multipath", mpTest)
+	mayRun(t, "bmc", bmcTest)
 	test.SkipIfDryRun(t)
 }
 
